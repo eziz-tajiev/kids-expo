@@ -14,3 +14,4 @@ module.exports = {
   trailingComma: "all", // Makes diffs cleaner
   useTabs: false, // Spaces are more consistent across environments
 };
+
