@@ -3,60 +3,75 @@
 
   /* Purple */
 
-  --purple-50: #F0F0F0,
-  --purple-100: #E0D2EC,
-  --purple-200: #CAB4E0,
-  --purple-300: #B596D3,
-  --purple-400: #A078C7,
-  --purple-500: #8755B8,
-  --purple-600: #7545A4,
-  --purple-700: #5F3886,
-  --purple-800: #4A2B68,
-  --purple-900: #341F49,
-  --purple-950: #1F122B,
+  --purple-50: #f0f0f0;
+  --purple-100: #e0d2ec;
+  --purple-200: #cab4e0;
+  --purple-300: #b596d3;
+  --purple-400: #a078c7;
+  --purple-500: #8755b8;
+  --purple-600: #7545a4;
+  --purple-700: #5f3886;
+  --purple-800: #4a2b68;
+  --purple-900: #341f49;
+  --purple-950: #1f122b;
 
   /* Orange */
 
-  --orange-50: #FEF1EC,
-  --orange-100: #FAD4C4,
-  --orange-200: #F7B69D,
-  --orange-300: #F49975,
-  --orange-400: #F17C4D,
-  --orange-500: #ED5417,
-  --orange-600: #D84911,
-  --orange-700: #B03C0E,
-  --orange-800: #882E0B,
-  --orange-900: #612107,
-  --orange-950: #391304,
+  --orange-50: #fef1ec;
+  --orange-100: #fad4c4;
+  --orange-200: #f7b69d;
+  --orange-300: #f49975;
+  --orange-400: #f17c4d;
+  --orange-500: #ed5417;
+  --orange-600: #d84911;
+  --orange-700: #b03c0e;
+  --orange-800: #882e0b;
+  --orange-900: #612107;
+  --orange-950: #391304;
 
   /* Neutral */
 
-  --neutral-50: #F5F4F6,
-  --neutral-100: #DFDDE2,
-  --neutral-200: #CAC6CE,
-  --neutral-300: #B5AFBA,
-  --neutral-400: #9F97A7,
-  --neutral-500: #877D90,
-  --neutral-600: #746B7E,
-  --neutral-700: #5F5766,
-  --neutral-800: #49444F,
-  --neutral-900: #343038,
-  --neutral-950: #1F1C21,
+  --neutral-50: #f5f4f6;
+  --neutral-100: #dfdde2;
+  --neutral-200: #cac6ce;
+  --neutral-300: #b5afba;
+  --neutral-400: #9f97a7;
+  --neutral-500: #877d90;
+  --neutral-600: #746b7e;
+  --neutral-700: #5f5766;
+  --neutral-800: #49444f;
+  --neutral-900: #343038;
+  --neutral-950: #1f1c21;
 
-    /* Red */
+  /* Red */
 
-  --red-50: #FDECEC,
-  --red-100: #FAC5C5,
-  --red-200: #F69E9E,
-  --red-300: #F27777,
-  --red-400: #EF4F4F,
-  --red-500: #EB2626,
-  --red-600: #D51414,
-  --red-700: #AE1010,
-  --red-800: #860C0C,
-  --red-900: #5F0909,
-  --red-950: #380505,
+  --red-50: #fdecec;
+  --red-100: #fac5c5;
+  --red-200: #f69e9e;
+  --red-300: #f27777;
+  --red-400: #ef4f4f;
+  --red-500: #eb2626;
+  --red-600: #d51414;
+  --red-700: #ae1010;
+  --red-800: #860c0c;
+  --red-900: #5f0909;
+  --red-950: #380505;
+}
 
+body {
+  color: var(--neutral-900);
+}
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
+a,
+button {
+  all: unset;
+  cursor: pointer;
 }
