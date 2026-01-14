@@ -81,3 +81,7 @@ button {
   all: unset;
   cursor: pointer;
 }
+
+.main-content {
+  min-height: calc(100vh - 104px);
+}
