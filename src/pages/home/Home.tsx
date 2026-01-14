@@ -1,3 +1,7 @@
+import { AddressSection } from "./Address"
+
 export const Home = () => {
-  return <div>Home</div>
+  return <div>
+    <AddressSection />
+  </div>
 }

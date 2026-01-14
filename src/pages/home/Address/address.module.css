@@ -1,0 +1,36 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 24px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.description {
+  font-size: 16px;
+  color: var(--neutral-700);
+}
+
+.mapContainer {
+  width: 100%;
+  max-width: 600px;
+  height: 338px;
+}
+
+.iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
