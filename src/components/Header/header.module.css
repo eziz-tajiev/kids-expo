@@ -45,6 +45,10 @@
   gap: 4px;
 }
 
+.phoneNumber {
+  font-weight: 500;
+}
+
 .changeLanguage {
   display: flex;
   align-items: center;

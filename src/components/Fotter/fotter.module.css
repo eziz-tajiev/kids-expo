@@ -4,8 +4,33 @@
 }
 
 .container {
-  background-color: brown;
+  /* background-color: brown; */
   max-width: 1224px;
   width: 100%;
   margin: 0 auto;
+}
+
+.logoIcon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.groupIcon {
+  display: flex;
+  gap: 24px;
+  align-self: flex-end;
+}
+
+.icon {
+  height: 18px;
+  width: 18px;
+}
+
+.hr {
+  border-bottom: 1px solid var(--neutral-100);
+  margin: 20px 0;
+}
+
+.right {
+  text-align: center;
 }

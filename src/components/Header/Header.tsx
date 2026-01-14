@@ -20,7 +20,7 @@ export const Header = () => {
           <div className={styles.rightSide}>
             <div className={styles.phone}>
               <img src="/icons/phone.svg" alt="phoneIcon" height={14} width={14} />
-              <span>+993(62) 00-62-00</span>
+              <span className={styles.phoneNumber}>+993(62) 00-62-00</span>
             </div>
             <div className={styles.changeLanguage}>
               <img src="/images/russianFlag.png" alt="russianFlag" />
