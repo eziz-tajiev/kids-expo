@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  gap: 127px;
+  align-items: center;
+  max-width: 1222px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 28px 0;
+}
+
+.input {
+  padding: 16px;
+  max-width: 392px;
+  width: 100%;
+}
+
+.button {
+  background-color: var(--purple-500);
+  color: white;
+  max-width: 287px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 0;
+}

@@ -1,0 +1,53 @@
+.header {
+  background-color: var(--purple-800);
+}
+
+.container {
+  max-width: 1230px;
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.addressWrap {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0;
+}
+
+.address {
+  line-height: 20px;
+}
+
+.navigation {
+  display: flex;
+  gap: 16px;
+}
+
+.leftSide {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.rightSide {
+  display: flex;
+  gap: 16px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.changeLanguage {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+}

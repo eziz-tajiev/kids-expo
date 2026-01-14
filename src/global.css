@@ -58,7 +58,13 @@
   --red-950: #380505;
 }
 
+@font-face {
+  font-family: 'Roboto';
+  src: url(/public/fonts/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
 body {
+  font-family: 'Roboto';
   color: var(--neutral-900);
 }
 
