@@ -66,6 +66,7 @@
 body {
   font-family: 'Roboto';
   color: var(--neutral-900);
+  background-color: var(--neutral-50);
 }
 
 *,

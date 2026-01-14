@@ -1,4 +1,8 @@
-.header {
+.main {
+  background-color: white;
+}
+
+.upper {
   background-color: var(--purple-800);
 }
 
@@ -50,4 +54,20 @@
   align-items: center;
   gap: 8px;
   padding: 6px 0;
+}
+
+.lower {
+  max-width: 1220px;
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.navigation {
+  display: flex;
+  gap: 24px;
 }
