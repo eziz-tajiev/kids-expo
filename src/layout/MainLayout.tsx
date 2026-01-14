@@ -1,10 +1,10 @@
 import { Outlet } from 'react-router-dom'
 import { Header } from '../components/Header/Header'
-import { Footer } from '../components/Fotter/Fotter'
+import { Footer } from '../components/Footer/Footer'
 
 export const MainLayout = () => {
   return (
-    <div>
+    <>
       <Header />
 
       <main className='main-content'>
@@ -12,6 +12,6 @@ export const MainLayout = () => {
       </main>
 
       <Footer />
-    </div>
+    </>
   )
 }

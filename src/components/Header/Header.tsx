@@ -1,10 +1,9 @@
-import { SecondHeader } from '../SecondHeader/SecondHeader'
 import styles from './header.module.css'
 
 export const Header = () => {
   return (
-    <header>
-      <div className={styles.header}>
+    <header className={styles.main}>
+      <div className={styles.upper}>
         <div className={styles.container}>
           <div className={styles.leftSide}>
             <div className={styles.addressWrap}>
@@ -30,7 +29,15 @@ export const Header = () => {
           </div>
         </div>
       </div>
-      <SecondHeader />
+      
+      <div className={styles.lower}>
+        <img src="/images/logo.png" />
+        <nav className={styles.navigation}>
+          <a href="">Выставка</a>
+          <a href="">Участникам</a>
+          <a href="">Посетителям</a>
+        </nav>
+      </div>
     </header>
   )
 }

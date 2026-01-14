@@ -1,0 +1,11 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+}
+
+@media (max-width: 768px) {
+  .main {
+    gap: 40px;
+  }
+}

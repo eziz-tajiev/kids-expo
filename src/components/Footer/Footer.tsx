@@ -1,5 +1,5 @@
 import { FotterSubscribe } from '../FotterSubscribe/FotterSubscribe'
-import styles from './fotter.module.css'
+import styles from './footer.module.css'
 
 export const Footer = () => {
   return (
