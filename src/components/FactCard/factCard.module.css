@@ -1,0 +1,27 @@
+.card {
+  border-radius: 2px;
+  background-color: var(--neutral-100);
+  background-image: url('/public/icons/bgSparkle.svg');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+  padding: 16px;
+  flex: 1;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.value {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--orange-500);
+}
+
+.label {
+  font-size: 16px;
+  color: var(--neutral-900);
+}
