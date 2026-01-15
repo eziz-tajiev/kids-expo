@@ -27,7 +27,7 @@
   line-height: 20px;
 }
 
-.navigation {
+.navigationUp {
   display: flex;
   gap: 16px;
 }
@@ -71,9 +71,10 @@
   background-color: white;
 }
 
-.navigation {
+.navigationLow {
   display: flex;
   gap: 24px;
+  color: var(--neutral-700);
 }
 
 .hamburger {

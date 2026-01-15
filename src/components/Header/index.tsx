@@ -1,4 +1,6 @@
+import clsx from 'clsx'
 import styles from './header.module.css'
+import { Dropdown } from '../Dropdown'
 
 export const Header = () => {
   return (
@@ -10,7 +12,7 @@ export const Header = () => {
               <img src="/icons/gps.svg" alt="gpsIcon" />
               <span className={styles.address}>Ашхабад, Туркменистан</span>
             </div>
-            <nav className={styles.navigation}>
+            <nav className={clsx('bold', styles.navigationUp)}>
               <a href="#">Путеводитель</a>
               <a href="#">Контакты</a>
               <a href="#">Новости</a>
@@ -32,10 +34,12 @@ export const Header = () => {
 
       <div className={styles.lower}>
         <img src="/images/logo.png" />
-        <nav className={styles.navigation}>
-          <a href="">Выставка</a>
-          <a href="">Участникам</a>
-          <a href="">Посетителям</a>
+        <nav className={clsx('bold', styles.navigationLow)}>
+          <Dropdown label="Выставка" links={exhibitionLinks} />
+
+          <Dropdown label="Участникам" links={participantsLinks} />
+
+          <Dropdown label="Посетителям" links={visitorsLinks} />
         </nav>
 
         <div className={styles.hamburger}>
@@ -47,3 +51,21 @@ export const Header = () => {
     </header>
   )
 }
+
+const exhibitionLinks = [
+  { label: 'О выставке', href: '/about' },
+  { label: 'Место проведения', href: '/location' },
+  { label: 'Медиа', href: '/media' },
+  { label: 'Новости', href: '/news' },
+  { label: 'FAQ', href: '/faq' },
+]
+
+const participantsLinks = [
+  { label: 'Информация', href: '/participants/info' },
+  { label: 'Преимущества', href: '/participants/benefits' },
+]
+
+const visitorsLinks = [
+  { label: 'Зачем посещать', href: '/visit/why' },
+  { label: 'Программа', href: '/visit/program' },
+]

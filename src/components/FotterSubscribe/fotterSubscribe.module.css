@@ -14,9 +14,11 @@
 }
 
 .input {
+  border: 1px solid var(--neutral-200);
   padding: 16px;
   max-width: 392px;
   width: 100%;
+  border-radius: 8px;
 }
 
 .button {

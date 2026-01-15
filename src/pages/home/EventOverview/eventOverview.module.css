@@ -61,18 +61,17 @@
     margin: 0 auto;
     display: block;
   }
-}
+  .description {
+    font-size: 15px;
+  }
 
-.description {
-  font-size: 15px;
-}
+  .button {
+    padding: 14px 20px;
+  }
 
-.button {
-  padding: 14px 20px;
-}
-
-.facts {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
+  .facts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
 }
