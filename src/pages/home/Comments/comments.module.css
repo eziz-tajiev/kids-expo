@@ -1,0 +1,50 @@
+.container {
+  background-color: var(--neutral-100);
+  padding: 40px 0;
+}
+
+.header {
+  margin-bottom: 32px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.dateCards {
+  display: flex;
+  gap: 24px;
+}
+
+.contactCards {
+  display: flex;
+  gap: 24px;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 32px 0;
+  }
+
+  .header {
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .contacts {
+    gap: 40px;
+  }
+
+  .dateCards,
+  .contactCards {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
