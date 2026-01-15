@@ -1,0 +1,22 @@
+.card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 4px 8px;
+  flex: 1;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 14px;
+  color: #6f6466;
+}
+
+.contact {
+  font-size: 18px;
+  font-weight: 600;
+}

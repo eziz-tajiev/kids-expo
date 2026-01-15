@@ -1,0 +1,17 @@
+.card {
+  flex: 1;
+}
+
+.header {
+  color: white;
+  background-color: var(--purple-800);
+  padding: 8px 16px;
+  border-radius: 4px 4px 0 0;
+}
+
+.dateTime {
+  font-size: 18px;
+  background-color: white;
+  padding: 16px;
+  border-radius: 0 0 4px 4px;
+}
