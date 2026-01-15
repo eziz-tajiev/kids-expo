@@ -75,3 +75,35 @@
   display: flex;
   gap: 24px;
 }
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 22px;
+  height: 2px;
+  background-color: #000;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .upper {
+    display: none;
+  }
+
+  .lower {
+    padding: 12px 16px;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}

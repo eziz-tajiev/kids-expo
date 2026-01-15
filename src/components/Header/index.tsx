@@ -29,7 +29,7 @@ export const Header = () => {
           </div>
         </div>
       </div>
-      
+
       <div className={styles.lower}>
         <img src="/images/logo.png" />
         <nav className={styles.navigation}>
@@ -37,6 +37,12 @@ export const Header = () => {
           <a href="">Участникам</a>
           <a href="">Посетителям</a>
         </nav>
+
+        <div className={styles.hamburger}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
     </header>
   )

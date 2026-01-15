@@ -43,3 +43,36 @@
   display: flex;
   gap: 24px;
 }
+
+@media (max-width: 768px) {
+  .links {
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .videoContainer video {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+.description {
+  font-size: 15px;
+}
+
+.button {
+  padding: 14px 20px;
+}
+
+.facts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
