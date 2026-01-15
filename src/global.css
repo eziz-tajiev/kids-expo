@@ -98,6 +98,12 @@ p {
 }
 
 /* Typography */
+h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+}
+
 h3 {
   font-weight: 700;
   font-size: 32px;
@@ -108,4 +114,21 @@ h6 {
   font-weight: 700;
   font-size: 18px;
   line-height: 120%;
+}
+
+.bodyMedium {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.seimbold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
 }
