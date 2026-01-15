@@ -3,7 +3,7 @@ import { clsx } from 'clsx'
 
 export const AddressSection = () => {
   return (
-    <div className={styles.section}>
+    <section className={styles.section}>
       <div className={clsx('page-max-width', styles.wrapper)}>
         <div className={styles.content}>
           <h3>Адрес ТПП Туркменистана</h3>
@@ -24,6 +24,6 @@ export const AddressSection = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   )
 }
