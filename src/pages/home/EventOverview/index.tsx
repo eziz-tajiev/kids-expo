@@ -1,3 +1,4 @@
+import { FactCard } from '../../../components/FactCard'
 import { CustomLink } from '../../../components/ui/CustomLink'
 import styles from './eventOverview.module.css'
 
@@ -6,6 +7,13 @@ const navItems = [
   { title: 'Забронировать стенд', href: '' },
   { title: 'Список участников', href: '' },
   { title: 'B2B | B2G встречи', href: '' },
+]
+
+const factsData = [
+  { value: '8,400 m²', label: 'выставочной площади' },
+  { value: '10000+', label: 'Посетители посетят выставку' },
+  { value: '100+', label: 'Экспоненты из более чем 30 стран' },
+  { value: '80%', label: 'Участники принимают участие в принятии решений о закупках' },
 ]
 
 export const EventOverview = () => {
@@ -26,17 +34,27 @@ export const EventOverview = () => {
               оценка удовлетворенности гостей, а также ключевые тренды, аналитика рынка, инсайты
               отэкспертов, которые формируют будущее детской индустрии.
             </p>
+            <button className={styles.button}>
+              <img height={16} width={16} src="icons/downloadPurple.svg" />
+              <span>Скачать</span>
+            </button>
           </div>
 
           <div className={styles.videoContainer}>
             <video
               muted
               autoPlay
+              loop
               src="https://editor.turkmenexpo.com/storage/app/media/video/asdf.webm"
               width={598}
-              className={styles.iframe}
+              controls
             />
           </div>
+        </div>
+        <div className={styles.facts}>
+          {factsData.map((fact, index) => (
+            <FactCard value={fact.value} label={fact.label} key={index} />
+          ))}
         </div>
       </div>
     </section>

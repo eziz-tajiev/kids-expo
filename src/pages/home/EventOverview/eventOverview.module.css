@@ -1,6 +1,7 @@
 .links {
   display: flex;
   gap: 24px;
+  margin-bottom: 80px;
 }
 
 .wrapper {
@@ -22,8 +23,23 @@
   color: var(--neutral-700);
 }
 
+.button {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  border: 1px solid var(--purple-600);
+  border-radius: 2px;
+  width: fit-content;
+  padding: 16px 24px;
+}
+
 .videoContainer {
   width: 100%;
   max-width: 598px;
-  height: 337px;
+}
+
+.facts {
+  margin-top: 40px;
+  display: flex;
+  gap: 24px;
 }
